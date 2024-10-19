@@ -18,8 +18,10 @@ export default function RootLayout({
       <body
         className={`${zen_kaku_gothic_new.className} antialiased`}
       >
-        <Navbar/>
-        {children}
+        <div className="bg-gradient-to-b from-cyan-900 via-slate-700 bg-fixed to-slate-800 bg-cover min-h-screen">
+          <Navbar/>
+          {children}
+        </div>
       </body>
     </html>
   );
