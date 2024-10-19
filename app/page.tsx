@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { basePath } from "@/next.config.mjs" // 追加
+import { basePath } from "../next.config.mjs" // 追加
 const BASE_PATH = basePath ? basePath : "" // 追加
 
 
