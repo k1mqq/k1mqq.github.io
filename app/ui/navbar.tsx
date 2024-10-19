@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 backdrop-blur-lg">
       <div className="flex p-0 mb-5 ">
-        <Link href="/" className="hover:bg-cyan-900">
+        <Link href="/" className="hover:bg-cyan-900 hover:bg-gray-500">
           <Image
             src={`/myicon.png`}
             width={60}
@@ -23,13 +23,13 @@ export default function Navbar() {
         </Link>
         <Link
           href="/blog"
-          className="p-6 hover:bg-cyan-900 items-center flex justify-center hidden md:block"
+          className="p-6 hover:bg-gray-500 items-center flex justify-center hidden md:block"
         >
           <p>Blog</p>
         </Link>
         <Link
           href="/link"
-          className="p-6 hover:bg-cyan-900 items-center flex justify-center hidden md:block"
+          className="p-6 hover:bg-gray-500 items-center flex justify-center hidden md:block"
         >
           <p>Link</p>
         </Link>
@@ -50,8 +50,8 @@ export default function Navbar() {
       </div>
       {openMenu ? (
         <div className="">
-            <Link href="/blog" className="flex items-center p-3 border-t-2">blog</Link>
-            <Link href="/Link" className="flex items-center p-3 border-t-2">Link</Link>
+            <Link href="/blog" className="flex items-center p-3 border">blog</Link>
+            <Link href="/Link" className="flex items-center p-3 border">Link</Link>
         </div>
       ) : undefined}
     </header>
