@@ -25,3 +25,15 @@ body {
     text-wrap: balance;
   }
 }
+
+h1{
+  @apply text-xl border-b-2 p-2 font-bold;
+}
+
+h2{
+  @apply text-lg border-b-2 p-2 font-bold;
+}
+
+h3{
+  @apply border-b-2 p-2 font-bold;
+}
