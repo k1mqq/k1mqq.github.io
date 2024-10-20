@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Links from "@/app/ui/links";
 import Link from "next/link"
+import BlogList from "@/app/ui/blog-list";
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
       <div className="flex items-center justify-center">
         <div className="w-full md:w-2/4 m-5 p-4 bg-gray-100/10 rounded-lg border backdrop-blur-lg shadow-lg border-gray-100/30 text-slate-100">
           <Link href="/blog" className=""><h1 className="p-2 text-xl border-b-2 hover:border-cyan-500/80 transition ease-in">Blog</h1></Link>
-          <p className="p-3">まだなし！</p>
+          <BlogList/>
       </div>
       </div>
 
