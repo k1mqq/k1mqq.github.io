@@ -1,4 +1,4 @@
-import Link from "@/app/ui/link"
+import Link from "@/app/ui/links"
 
 export default function Page() {
   return (
