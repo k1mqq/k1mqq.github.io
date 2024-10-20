@@ -51,7 +51,7 @@ export default function Navbar() {
       {openMenu ? (
         <div className="">
             <Link href="/blog" className="flex items-center p-3 border">blog</Link>
-            <Link href="/Link" className="flex items-center p-3 border">Link</Link>
+            <Link href="/ink" className="flex items-center p-3 border">Link</Link>
         </div>
       ) : undefined}
     </header>
