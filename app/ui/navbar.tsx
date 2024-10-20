@@ -9,7 +9,7 @@ export default function Navbar() {
     setOpenMenu(!openMenu);
   };
   return (
-    <header className="sticky top-0 backdrop-blur-lg">
+    <header className="sticky top-0 backdrop-blur-md z-50">
       <div className="flex p-0 mb-5 ">
         <Link href="/" className="border-b-2 border-cyan-500/0 hover:border-cyan-500/80 transition ease-in">
           <Image
