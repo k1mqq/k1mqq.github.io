@@ -1,7 +1,7 @@
-import Link from "@/app/ui/links"
+import Links from "@/app/ui/links"
 
 export default function Page() {
   return (
-    <Link/>
+    <Links/>
   );
 }
