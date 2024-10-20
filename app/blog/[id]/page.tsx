@@ -8,10 +8,14 @@ export function generateStaticParams() {
     }));
   }
 
-  export default function Page({ params }) {
+  interface PostProps {
+    id: string
+  }
+
+  export default function Page({ params }:{ params: PostProps }) {
     return (
       <div>
-        <p>{params.post}</p>
+        <p>{params.id}</p>
       </div>
     );
   }
