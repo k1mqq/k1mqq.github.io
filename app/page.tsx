@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <div className="flex items-center justify-center">
-        <div className="w-full md:w-2/4 m-5 p-4 bg-gray-100/10 rounded-lg border backdrop-blur-lg shadow-lg border-gray-100/50 text-slate-100">
+        <div className="w-full md:w-2/4 m-5 p-4 bg-gray-100/10 rounded-lg border backdrop-blur-lg shadow-lg border-gray-100/30 text-slate-100">
           <Image
             src={`/myicon.png`}
             width={100}
@@ -22,14 +22,14 @@ export default function Home() {
       </div>
 
       <div className="flex items-center justify-center">
-        <div className="w-full md:w-2/4 m-5 p-4 bg-gray-100/10 rounded-lg border backdrop-blur-lg shadow-lg border-gray-100/50 text-slate-100">
+        <div className="w-full md:w-2/4 m-5 p-4 bg-gray-100/10 rounded-lg border backdrop-blur-lg shadow-lg border-gray-100/30 text-slate-100">
           <Link href="/blog" className=""><h1 className="p-2 text-xl border-b-2 hover:border-cyan-500/80 transition ease-in">Blog</h1></Link>
           <p className="p-3">まだなし！</p>
       </div>
       </div>
 
       <div className="flex items-center justify-center">
-        <div className="w-full md:w-2/4 m-5 p-4 bg-gray-100/10 rounded-lg border backdrop-blur-lg shadow-lg border-gray-100/50 text-slate-100">
+        <div className="w-full md:w-2/4 m-5 p-4 bg-gray-100/10 rounded-lg border backdrop-blur-lg shadow-lg border-gray-100/30 text-slate-100">
           <h1 className="text-xl border-b-2 p-2">History</h1>
           <div className="flex p-3">
             <p>2024/10</p>
