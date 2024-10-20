@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 backdrop-blur-lg">
       <div className="flex p-0 mb-5 ">
-        <Link href="/" className="hover:bg-cyan-900 hover:bg-gray-500">
+        <Link href="/" className="border-b-2 border-cyan-500/0 hover:border-cyan-500/80 transition ease-in">
           <Image
             src={`/myicon.png`}
             width={60}
@@ -23,13 +23,13 @@ export default function Navbar() {
         </Link>
         <Link
           href="/blog"
-          className="p-6 hover:bg-gray-500 items-center flex justify-center hidden md:block"
+          className="p-6 border-b-2 border-cyan-500/0 hover:border-cyan-500/80 items-center flex justify-center hidden md:block transition ease-in"
         >
           <p>Blog</p>
         </Link>
         <Link
           href="/link"
-          className="p-6 hover:bg-gray-500 items-center flex justify-center hidden md:block"
+          className="p-6 border-b-2 border-cyan-500/0 hover:border-cyan-500/80 items-center flex justify-center hidden md:block transition ease-in"
         >
           <p>Link</p>
         </Link>
