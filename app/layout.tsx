@@ -14,6 +14,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
+      <head>
+        {/* Cloudflare Web Analytics */}
+        <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "99a5ec02fed64202915896f05dbf8cbd"}'></script>
+      </head>
       
       <body
         className={`${zen_kaku_gothic_new.className} antialiased`}
